@@ -17,13 +17,11 @@ header {
     background: none;
     color: #333;
     padding: 1rem 0;
-    border-bottom: none;
 }
 
 header h1 {
     text-align: center;
     margin: 0;
-    font-size: 2rem;
 }
 
 header nav ul {
@@ -40,7 +38,6 @@ header nav ul li {
 header nav ul li a {
     color: #333;
     text-decoration: none;
-    font-weight: bold;
 }
 
 header nav ul li a:hover {
@@ -48,10 +45,9 @@ header nav ul li a:hover {
 }
 
 .section {
-    padding: 2rem 0;
+    padding: 1rem 0;
     background: #ffffff;
-    margin: 1rem 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0;
 }
 
 .section h2 {
@@ -67,13 +63,12 @@ header nav ul li a:hover {
 .section ul li {
     margin: 0.5rem 0;
     padding: 0.5rem;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    background: none;
+    border: none;
 }
 
 .section ul li a {
-    color: #e8491d;
+    color: #333;
     text-decoration: none;
 }
 
@@ -86,5 +81,4 @@ footer {
     color: #333;
     text-align: center;
     padding: 1rem 0;
-    margin-top: 1rem;
 }
